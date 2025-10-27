@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Paving Services | Ramp Tar Projects</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+        <meta name="author" content="Ramp Tar Projects">
+        <meta name="robots" content="index, follow">
+        <meta name="googlebot" content="index, follow">
+        <meta name="revisit-after" content="7 days">
+        <meta name="language" content="English">
+        <meta name="distribution" content="Global">
+        <meta name="rating" content="General">
+        <meta name="keywords"
+            content="paving, driveway paving, brick paving, interlocking paving, stretcher bond bevel paving, professional paving services">
+        <meta name="description"
+            content="Explore our diverse paving services including driveway paving, brick paving, interlocking paving, and stretcher bond bevel paving. Quality craftsmanship for all your paving needs.">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <!-- Favicon -->
+        <link rel="icon" href="img/favicon.png" type="image/png">
+        <!-- Fonts & Icons -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap"
+            rel="stylesheet">
+        <style>
+            .slider-container {
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+                max-width: 1200px;
+                margin: auto;
+            }
+
+            .slider {
+                display: flex;
+                transition: transform 0.5s ease-in-out;
+                gap: 1rem;
+            }
+
+            .slider img {
+                width: 300px;
+                height: 200px;
+                border-radius: 10px;
+                object-fit: cover;
+                cursor: pointer;
+            }
+
+            .slider-controls {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 1rem;
+                gap: 1.5rem;
+            }
+
+            .slider-controls i {
+                font-size: 1.5rem;
+                color: var(--arrow-color);
+                cursor: pointer;
+                transition: color 0.3s;
+            }
+
+            .slider-controls i:hover {
+                color: var(--accent-color);
+            }
+
+            /* Modal Styles */
+            .modal {
+                display: none;
+                position: fixed;
+                inset: 0;
+                background: var(--modal-bg);
+                justify-content: center;
+                align-items: center;
+                z-index: 1000;
+            }
+
+            .modal img {
+                max-width: 90%;
+                max-height: 90%;
+                border-radius: 10px;
+            }
+
+            .modal.show {
+                display: flex;
+            }
+
+            /* Responsive */
+            @media (max-width: 768px) {
+                .slider img {
+                    width: 250px;
+                    height: 160px;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <!--header section-->
+        <header>
+            <input type="checkbox" name="" id="toggler">
+            <label for="toggler" class="fa-solid fa-bars"></label>
+            <a href="#" class="logo">
+                <img src="img/Ramp Tar Projects.png" alt="ramp tar project logo">
+            </a>
+            <nav class="navbar">
+
+                <a href="services.html">Services</a>
+                <a href="service-areas.html">Service Areas</a>
+                <a href="projects.html">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <a class="header-btn" href="tel:+27836664886"><i class="fa-solid fa-phone"></i> Contact Us</a>
+
+        </header>
+        <!--end of header section-->
+        <!--home section-->
+        <section class="home" id="home" style="min-height: 36vh;">
+            <div class="content">
+                <h1><span>PAVING SERVICES</span> </h1>
+                <p>Durable, weather-resistant paving solutions for driveways, roads, and parking areas across Gauteng.
+                </p>
+                <a href="#quote-form" class="btn">Get a Free Quote</a>
+            </div>
+
+        </section>
+        <!--end of home section-->
+
+        <!-- Paving Details Section -->
+        <section class="about-section" style="padding-top: 3rem;">
+            <div class="about-container"
+                style="display:flex;flex-wrap:wrap;gap:40px;align-items:center;max-width:1100px;margin:0 auto;">
+                <div class="about-image" style="flex:1 1 340px;min-width:260px;">
+                    <img src="img/pave-stone.avif" alt="Paving Example" style="width:100%;border-radius:1.2rem;">
+                </div>
+
+                <div class="about-text">
+                    <span class="tag"
+                        style="background:#ff3d00;color:#fff;padding:0.3em 1em;border-radius:1em;font-size:0.95rem;">Specialist
+                        Service</span>
+                    <h2 style="margin-top:1rem;color:#0b2545;">Expert Paving Solutions</h2>
+                    <p style="line-height:1.3;margin-bottom:1.5rem;">
+                    Ramp Tar Projects specializes in brick paving for patios, walkways, driveways, and courtyards. Our team lays quality
+                    pavers over a properly prepared base with precise edge restraints and joint sand compaction, delivering a smooth,
+                    durable surface that handles heavy use and harsh weather.
+                    </p>
+                    <ul style="color:#0b2545;line-height:1.7;margin-bottom:1.5rem;">
+                        <li>Driveways, roads,
+                            and parking lots
+                        </li>
+                        <li>Residential,
+                            commercial, and
+                            industrial projects</li>
+                        <li>Edge trimming and drainage solutions</li>
+                        <li>Free site assessment and quotation</li>
+                    </ul>
+                    <a href="#quote-form" class="btn">Request a Free Quote</a>
+                </div>
+            </div>
+        </section>
+        <!-- Paving Benefits Section -->
+        <section class="why-choose" style="padding-top:2rem;">
+            <div class="features"
+                style="max-width:1100px;margin:0 auto;display:flex;flex-wrap:wrap;gap:30px;justify-content:center;">
+                <div class="feature-card">
+                    <div class="icon"><i class="fa-solid fa-shield"></i></div>
+                    <h4>Durability</h4>
+                    <p>Engineered for long-lasting performance, even under heavy traffic and tough weather.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon"><i class="fa-solid fa-clock"></i></div>
+                    <h4>Fast Installation</h4>
+                    <p>Efficient project turnaround with minimal disruption to your property or business.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+                    <h4>Cost-Effective</h4>
+                    <p>Competitive pricing and honest quotes—no hidden fees, just value for your investment.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon"><i class="fa-solid fa-leaf"></i></div>
+                    <h4>Low Maintenance</h4>
+                    <p>Easy to maintain and repair, keeping your surfaces looking great for years to come.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Image Slider Section -->
+        <div class="slider-container">
+            <h3>Explore Our Paving Projects</h3>
+            <p>Discover the quality and craftsmanship of our paving solutions through these featured projects.</p>
+            <div class="slider" id="slider">
+                <img src="img/bevel-pavers.avif" alt="Bevel Pavers">
+                <img src="img/paving-near-me.avif" alt="Brick Paving">
+                <img src="img/interlocking-paving.avif" alt="interlocking paving">
+                <img src="img/half-brick-cobble-paving.avif" alt="half-brick-cobble-paving">
+                <img src="img/grey-and-white-pavers.avif" alt="grey-and-white-pavers">
+                <img src="img/paving-repairs.avif" alt="paving-repairs">
+                <img src="img/colored-paving.avif" alt="colored-paving">
+                <img src="img/pathway-paving.avif" alt="pathway-paving">
+            </div>
+            <div class="slider-controls">
+                <i class="fa-solid fa-arrow-left" id="prev"></i>
+                <i class="fa-solid fa-arrow-right" id="next"></i>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal" id="modal">
+            <img id="modal-img" src="" alt="Expanded view">
+        </div>
+        <!-- Call to Action Section -->
+        <section class="cta-section">
+            <div class="cta-container">
+                <div class="cta-content">
+                    <h2>Ready for a Smooth, Reliable Surface?</h2>
+                    <p>Contact Ramp Tar Projects for expert paving and a fast, no-obligation quote.</p>
+                    <a href="index.html#contact" class="cta-button">Get Started</a>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+
+        <section class="contact-section" id="contact">
+            <h2 style="font-size:2.5rem; text-align:center; color:#0b2545; margin-bottom:2rem;">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-details">
+                    <h3>Contact Details</h3>
+                    <p><i class="fa-solid fa-phone"></i> <a href="tel:+27836664886">+27 83 666 4886</a></p>
+                    <p><i class="fa-solid fa-envelope"></i> <a
+                            href="mailto:info@ramptarprojects.co.za">info@ramptarprojects.co.za</a></p>
+                    <p><i class="fa-solid fa-location-dot"></i> Gauteng, South Africa</p>
+                    <div class="contact-map">
+
+                        <iframe
+                            src="https://maps.google.com/maps?q=Gauteng,%20South%20Africa&t=&z=10&ie=UTF8&iwloc=&output=embed"
+                            width="100%" height="160" style="border:0; border-radius:1rem;" allowfullscreen=""
+                            loading="lazy"></iframe>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <h3>Request a Free Quote</h3>
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="Your Phone" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" rows="4" placeholder="Tell us about your project..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                    <div class="form-message" style="display:none;"></div>
+                </form>
+            </div>
+        </section>
+
+
+        <script>
+            //slider modal
+            const slider = document.getElementById('slider');
+            const next = document.getElementById('next');
+            const prev = document.getElementById('prev');
+            const images = document.querySelectorAll('#slider img');
+            let index = 0;
+            let autoScroll;
+
+            function showSlide() {
+                const slideWidth = images[0].clientWidth + 16; // + gap
+                slider.style.transform = `translateX(${-index * slideWidth}px)`;
+            }
+
+            function nextSlide() {
+                index = (index + 1) % images.length;
+                showSlide();
+            }
+
+            function prevSlide() {
+                index = (index - 1 + images.length) % images.length;
+                showSlide();
+            }
+
+            next.addEventListener('click', nextSlide);
+            prev.addEventListener('click', prevSlide);
+
+            // Auto scroll
+            function startAutoScroll() {
+                autoScroll = setInterval(nextSlide, 9000);
+            }
+            function stopAutoScroll() {
+                clearInterval(autoScroll);
+            }
+            slider.addEventListener('mouseenter', stopAutoScroll);
+            slider.addEventListener('mouseleave', startAutoScroll);
+            startAutoScroll();
+
+            // Touch swipe support
+            let startX = 0;
+            slider.addEventListener('touchstart', (e) => startX = e.touches[0].clientX);
+            slider.addEventListener('touchend', (e) => {
+                const endX = e.changedTouches[0].clientX;
+                if (startX - endX > 50) nextSlide();
+                else if (endX - startX > 50) prevSlide();
+            });
+
+            // Modal popup
+            const modal = document.getElementById('modal');
+            const modalImg = document.getElementById('modal-img');
+            images.forEach(img => {
+                img.addEventListener('click', () => {
+                    modalImg.src = img.src;
+                    modal.classList.add('show');
+                });
+            });
+            modal.addEventListener('click', () => modal.classList.remove('show'));
+        </script>
+
+    </body>
+
+</html>
