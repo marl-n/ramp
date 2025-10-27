@@ -590,6 +590,7 @@ header .fa-bars {
 .modal {
     display: none;
     position: fixed;
+    padding: 45px 0;
     inset: 0;
     background: var(--modal-bg);
     justify-content: center;
@@ -1536,4 +1537,5 @@ header .fa-bars {
 
 .thank-container .btn-submit:hover {
     background: var(--accent-color)
+
 }
