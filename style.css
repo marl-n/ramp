@@ -217,7 +217,7 @@
 }
 
 html {
-    scroll-behavior:auto;
+    scroll-behavior: auto;
     font-size: 90%;
     overflow-x: hidden;
     scroll-padding-top: 6rem
@@ -589,8 +589,9 @@ header .fa-bars {
 
 .modal {
     display: none;
-    position: fixed;
     padding: 45px 0;
+    
+    position: fixed;
     inset: 0;
     background: var(--modal-bg);
     justify-content: center;
@@ -1537,5 +1538,4 @@ header .fa-bars {
 
 .thank-container .btn-submit:hover {
     background: var(--accent-color)
-
 }
